@@ -1,0 +1,182 @@
+@charset "UTF-8";
+* {
+  font-family: "Noto Sans TC";
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  text-align: center;
+}
+
+nav.HomePageNav {
+  background-color: black;
+  position: fixed; /* 固定在視窗位置 */
+  top: 0; /* 固定在視窗的頂部 */
+  left: 0; /* 從視窗左邊開始 */
+  width: 100%; /* 覆蓋整個寬度 */
+  text-align: center; /* 文字居中 */
+  z-index: 1000; /* 確保導航欄在其他元素之上 */
+}
+nav.HomePageNav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+nav.HomePageNav ul li {
+  list-style-type: none;
+  margin: 1rem;
+  flex: 1 1 50px;
+}
+nav.HomePageNav ul li button {
+  background-color: black;
+  color: white;
+  border-style: none;
+  font-size: 1.5rem;
+}
+nav.HomePageNav ul li button:hover {
+  color: rgb(54, 212, 138);
+}
+
+#homepage {
+  background-color: black;
+  min-height: 100vh;
+  padding: 60px;
+  color: white;
+}
+#homepage .content {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 1;
+}
+#homepage .content.fade-out {
+  opacity: 0;
+}
+#homepage .content.fade-in {
+  opacity: 1;
+}
+#homepage section.main-area {
+  min-height: 75vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  margin-top: 2rem;
+}
+#homepage section.main-area section.hello {
+  width: 50%;
+}
+#homepage section.main-area section.img {
+  width: 30%;
+}
+#homepage section.main-area section.img img {
+  width: 80%;
+}
+#homepage #resume {
+  display: flex;
+  flex-direction: column;
+}
+#homepage #resume h1 {
+  margin: 3rem;
+  font-size: 4rem;
+  text-align: center;
+}
+#homepage #resume section.resume {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: center;
+}
+#homepage #resume section.resume section.table {
+  flex-basis: 800px;
+  padding: 0 2rem 2rem 2rem;
+}
+#homepage #resume section.resume section.table table {
+  border-collapse: collapse;
+}
+#homepage #resume section.resume section.table table tr {
+  border-bottom: 2px solid gray;
+}
+#homepage #resume section.resume section.table table tr td {
+  padding: 1rem;
+}
+#homepage #resume section.resume section.table table tr td ol {
+  padding: 1rem;
+}
+#homepage #resume section.resume section.table table tr td ul {
+  padding: 1rem;
+}
+#homepage #resume section.resume section.table table tr td ul li {
+  font-size: 1rem;
+}
+#homepage #resume section.resume section.picture {
+  display: flex;
+  flex-shrink: 1;
+  flex-basis: 500px;
+  align-items: center;
+}
+#homepage #resume section.resume section.picture img {
+  width: 100%;
+  border-radius: 60px;
+}
+#homepage section.autobiography h1 {
+  margin: 3rem;
+  font-size: 4rem;
+  text-align: center;
+}
+#homepage section.autobiography p {
+  color: white;
+  text-align: center;
+}
+#homepage section.autobiography p span {
+  color: yellow;
+}
+#homepage section.autobiography p h2 {
+  color: red;
+}
+#homepage section.sideProject h1 {
+  margin: 3rem;
+  font-size: 4rem;
+  text-align: center;
+}
+#homepage section.sideProject section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#homepage section.sideProject section button {
+  background-color: black;
+  color: yellow;
+  border-style: none;
+  font-size: 1.5rem;
+}
+#homepage section.sideProject section button:hover {
+  color: rgb(54, 212, 138);
+}
+#homepage section.contact-me {
+  text-align: center;
+}
+#homepage section.contact-me h1 {
+  margin: 3rem;
+  font-size: 4rem;
+}
+#homepage section.contact-me button {
+  background-color: black;
+  color: white;
+  border-style: none;
+  font-size: 1.5rem;
+}
+#homepage section.contact-me button:hover {
+  color: rgb(54, 212, 138);
+}/*# sourceMappingURL=style.css.map */
