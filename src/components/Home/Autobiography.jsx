@@ -18,7 +18,7 @@ export default function Autobiography() {
       </p>
       <p>久而久之我心中某個聲音越來明顯:</p>
       <p>
-        <h2>我一定要學好寫程式教訓那群白癡</h2>
+        <h2>我就不信寫個程式抓個Bug有這麼難</h2>
       </p>
       <p>於是乎踏上了Coding路程...</p>
       <p>
